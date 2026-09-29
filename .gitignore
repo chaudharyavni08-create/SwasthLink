@@ -1,0 +1,29 @@
+# Backend
+BACKEND/.venv/
+BACKEND/venv/
+BACKEND/env/
+BACKEND/__pycache__/
+BACKEND/**/__pycache__/
+BACKEND/.env
+BACKEND/.env.*
+!BACKEND/.env.example
+
+# Frontend
+FRONTEND/node_modules/
+FRONTEND/dist/
+
+# Mobile
+MOBILE-APP/node_modules/
+
+# General
+*.pyc
+*.pyo
+*.sqlite
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# Local scratch files
+scratch_api_data.json
+scratch_scripts.txt
+uxpilot_shared_design.json
